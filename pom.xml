@@ -26,12 +26,13 @@
 		</dependency>
 		
 		<!-- SQL JDBC Driver -->
+		<!--
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>sqljdbc4</artifactId>
 			<version>3.0</version>
 		</dependency>
-
+		-->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
