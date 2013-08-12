@@ -22,8 +22,6 @@ import com.google.common.collect.Lists;
 
 @Controller
 public class NotifyMe {
-	
-	//final static Logger log = Logger.getLogger(NotifyMe.class);
 
 	@Autowired
 	private NotificationRepository notificationRepository;
@@ -33,9 +31,9 @@ public class NotifyMe {
 	public void log_Get(HttpServletRequest req){
 		
 		
-		Notification wpc = new Notification();
-		wpc.setHeaders(getHeaders(req));
-		notificationRepository.save(wpc);
+		Notification notification = new Notification();
+		notification.setHeaders(getHeaders(req));
+		notificationRepository.save(notification);
 		
 	}
 	
@@ -43,10 +41,10 @@ public class NotifyMe {
 	@ResponseStatus(value = HttpStatus.OK )
 	public void log_Post(@RequestBody String body, HttpServletRequest req){
 
-		Notification wpc = new Notification();
-		wpc.setHeaders(getHeaders(req)+"<br/>"+body);
+		Notification notification = new Notification();
+		notification.setHeaders(getHeaders(req)+"<br/>"+body);
 
-		notificationRepository.save(wpc);
+		notificationRepository.save(notification);
 		
 	}
 	

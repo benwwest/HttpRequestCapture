@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Test_Harness_WPCallback")
+@Table(name="HttpRequest")
 public class Notification {
 	
 	private long id;

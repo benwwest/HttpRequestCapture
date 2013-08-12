@@ -11,7 +11,7 @@
 
 
 
-	<!--Tomcat JDBC connection pool configutation -->
+	<!--Tomcat JDBC connection pool configuration -->
 	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">
 		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
 		<property name="url" value="jdbc:sqlserver://localhost;databaseName=test" />
