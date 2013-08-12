@@ -15,8 +15,8 @@
 	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">
 		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
 		<property name="url" value="jdbc:sqlserver://localhost;databaseName=test" />
-		<property name="username" value="MoPay" />
-		<property name="password" value="MoPay1234" />
+		<property name="username" value="user" />
+		<property name="password" value="password1234" />
 	</bean>
 
 	<!--Intialize the database schema with test data -->
