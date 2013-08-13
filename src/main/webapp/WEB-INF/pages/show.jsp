@@ -17,7 +17,7 @@ thead{background-color:gray;color:white;}
 </style>
 </head>
 <body>
-<h2>WP Callback Strings</h2>
+<h2>Recieved HTTP Requests</h2>
 <form action="deleteall" method="POST">
 	<input type="submit" name="delete all" title="delete" value="delete all"/>
 </form>

@@ -25,15 +25,6 @@
 			<version>2.6</version>
 		</dependency>
 		
-		<!-- SQL JDBC Driver -->
-		<!--
-		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>sqljdbc4</artifactId>
-			<version>3.0</version>
-		</dependency>
-		-->
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -124,12 +115,6 @@
 			<artifactId>standard</artifactId>
 			<version>1.1.2</version>
 		</dependency>
-
-		<!-- logging -->
-		<!-- <dependency> <groupId>log4j</groupId> <artifactId>log4j</artifactId> 
-			<version>1.2.16</version> </dependency> -->
-		<!-- <dependency> <groupId>org.springframework.ws</groupId> <artifactId>spring-ws-core</artifactId> 
-			<version>2.1.0.RELEASE</version> </dependency> -->
 
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>

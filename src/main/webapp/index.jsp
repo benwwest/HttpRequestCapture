@@ -7,11 +7,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
-<title>Notifications</title>
+<title>Http request tool Homepage</title>
 
 </head>
 <body>
-<h2>test</h2>
+<h2>Http Request Tool Homepage</h2>
+<p>To see posts sent to this too click <a href="show">here</a></p>
 
 </body>
 </html>

@@ -54,7 +54,7 @@ public class NotifyMe {
 		List<Notification> notifications = Lists.newArrayList(notificationRepository.findAll());
 		
 		modelMap.put("notifications", notifications);
-		
+
 		return "show";
 	}
 	
@@ -76,6 +76,7 @@ public class NotifyMe {
 	
 	
 	
+@SuppressWarnings("rawtypes")
 private String getHeaders(HttpServletRequest req){
 		
 		String url = req.getRequestURL().toString();
